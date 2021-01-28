@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		555CDBDE25C2A6A500F32F7E /* PlaySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555CDBDD25C2A6A500F32F7E /* PlaySongViewController.swift */; };
 		55950B3225C1C058005FC259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55950B3125C1C058005FC259 /* AppDelegate.swift */; };
 		55950B3425C1C058005FC259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55950B3325C1C058005FC259 /* SceneDelegate.swift */; };
 		55950B3625C1C058005FC259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55950B3525C1C058005FC259 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		555CDBDD25C2A6A500F32F7E /* PlaySongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySongViewController.swift; sourceTree = "<group>"; };
 		55950B2E25C1C058005FC259 /* Playlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55950B3125C1C058005FC259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55950B3325C1C058005FC259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				55950B3125C1C058005FC259 /* AppDelegate.swift */,
 				55950B3325C1C058005FC259 /* SceneDelegate.swift */,
+				555CDBDD25C2A6A500F32F7E /* PlaySongViewController.swift */,
 				55950B3525C1C058005FC259 /* ViewController.swift */,
 				55950B4925C1C8A7005FC259 /* SongTableViewCell.swift */,
 				55950B4625C1C126005FC259 /* Songs.swift */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55950B4725C1C126005FC259 /* Songs.swift in Sources */,
+				555CDBDE25C2A6A500F32F7E /* PlaySongViewController.swift in Sources */,
 				55950B3625C1C058005FC259 /* ViewController.swift in Sources */,
 				55950B4A25C1C8A7005FC259 /* SongTableViewCell.swift in Sources */,
 				55950B3225C1C058005FC259 /* AppDelegate.swift in Sources */,

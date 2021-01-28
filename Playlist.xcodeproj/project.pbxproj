@@ -10,9 +10,7 @@
 		55950B3225C1C058005FC259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55950B3125C1C058005FC259 /* AppDelegate.swift */; };
 		55950B3425C1C058005FC259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55950B3325C1C058005FC259 /* SceneDelegate.swift */; };
 		55950B3625C1C058005FC259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55950B3525C1C058005FC259 /* ViewController.swift */; };
-		55950B3925C1C058005FC259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55950B3725C1C058005FC259 /* Main.storyboard */; };
 		55950B3B25C1C059005FC259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55950B3A25C1C059005FC259 /* Assets.xcassets */; };
-		55950B3E25C1C059005FC259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55950B3C25C1C059005FC259 /* LaunchScreen.storyboard */; };
 		55950B4725C1C126005FC259 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55950B4625C1C126005FC259 /* Songs.swift */; };
 		55950B4A25C1C8A7005FC259 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55950B4925C1C8A7005FC259 /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -22,9 +20,7 @@
 		55950B3125C1C058005FC259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55950B3325C1C058005FC259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55950B3525C1C058005FC259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55950B3825C1C058005FC259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55950B3A25C1C059005FC259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		55950B3D25C1C059005FC259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55950B3F25C1C059005FC259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55950B4625C1C126005FC259 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
 		55950B4925C1C8A7005FC259 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
@@ -65,9 +61,7 @@
 				55950B3525C1C058005FC259 /* ViewController.swift */,
 				55950B4925C1C8A7005FC259 /* SongTableViewCell.swift */,
 				55950B4625C1C126005FC259 /* Songs.swift */,
-				55950B3725C1C058005FC259 /* Main.storyboard */,
 				55950B3A25C1C059005FC259 /* Assets.xcassets */,
-				55950B3C25C1C059005FC259 /* LaunchScreen.storyboard */,
 				55950B3F25C1C059005FC259 /* Info.plist */,
 			);
 			path = Playlist;
@@ -130,9 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55950B3E25C1C059005FC259 /* LaunchScreen.storyboard in Resources */,
 				55950B3B25C1C059005FC259 /* Assets.xcassets in Resources */,
-				55950B3925C1C058005FC259 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,25 +144,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		55950B3725C1C058005FC259 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55950B3825C1C058005FC259 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		55950B3C25C1C059005FC259 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55950B3D25C1C059005FC259 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		55950B4025C1C059005FC259 /* Debug */ = {
